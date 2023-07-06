@@ -1,4 +1,43 @@
-.container {
-   background-color: #25382E;
-   
+@font-face {
+   font-family: Gilroy;
+   src: url(/fonts/Gilroy-Regular.woff2);
+   font-weight: 400;
 }
+@font-face {
+   font-family: Gilroy;
+   src: url(/fonts/Gilroy-Bold.woff2);
+   font-weight: 700;
+}
+@font-face {
+   font-family: Gilroy;
+   src: url(/fonts/Gilroy-Medium.woff2);
+   font-weight: 500;
+}
+@font-face {
+   font-family: Gilroy;
+   src: url(/fonts/Gilroy-Light.woff2);
+   font-weight: 300;
+}
+@font-face {
+   font-family: DolomanPavljenko;
+   src: url(/fonts/DolomanPavljenko-light.woff2);
+   font-weight: 300;
+}
+
+body {
+   background-color: #25382E; 
+}
+.container { 
+   font-family: "Gilroy";
+   max-width: 1426px;
+   width: 100%;
+   margin: 0 auto;
+   padding: 0 15px;
+
+}
+
+
+//!--------------------------------------
+
+@import "header";
+@import "greetings"
