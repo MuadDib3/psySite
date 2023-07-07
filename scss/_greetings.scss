@@ -1,9 +1,9 @@
 .greetings {
 
    width: 100%;
-   max-height: 680px;
    border: 1px solid #ffffff;
    border-top: none;
+   border-bottom: none;
    display: flex;
    background-image: url(/img/greetings-background.jpg);
    background-position: 0 0;
@@ -11,11 +11,11 @@
    background-size: cover;
 
    &__content-wrapper {
-      width: 50%;
+      width: 49.999%;
    }
    &__content {
-      margin: 6.45%;
-      padding-top: 55px;
+      margin: 5.5%;
+      padding-top: 45px;
       background-color: #fff;
    }
 
@@ -31,10 +31,9 @@
       line-height: normal;}
 
    &__text {
-      margin-bottom: 85px;
+      margin-bottom: 78px;
       margin-left: 9.22%;
       margin-right: 9.22%;
-      max-width: 468px;
       color: #000;
       font-family: Gilroy;
       font-size: 24px;
@@ -87,11 +86,11 @@
    &__img {
       display: flex;
       justify-content: space-between;
-      width: 50%;
+      width: 50.001%;
       padding-left: 8.2%;
-      padding-top: 45px;
+      padding-top: 2.75%;
       padding-right: 3.2%;
-      padding-bottom: 45px;
+      padding-bottom: 2.75%;
       border-left: 1px solid #fff;
 
    }
@@ -101,7 +100,7 @@
       max-width: 100%;
       flex-shrink: 1;
       img {
-         max-height: 545px;
+         max-height: 532px;
       }
    }
    &__logo {
