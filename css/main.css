@@ -150,6 +150,7 @@ body {
 }
 .greetings__button:hover::before {
   background-color: #25382E;
+  border: 2px solid #25382E;
 }
 .greetings__img {
   display: flex;
@@ -213,7 +214,7 @@ body {
 }
 .about-me__text {
   width: 66.666%;
-  margin: 50px 7% 50px;
+  padding: 50px 7% 50px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -223,4 +224,412 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+
+.education {
+  display: flex;
+  border-top: 1px solid #25382E;
+}
+.education__content {
+  width: 50%;
+  border-right: 1px solid #25382E;
+  background-color: #fff;
+  padding: 65px 3.2% 90px;
+}
+.education__title {
+  margin-bottom: 80px;
+  color: #000;
+  text-align: center;
+  font-family: Doloman Pavljenko;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.education__list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.education__item {
+  cursor: pointer;
+  color: #000;
+  font-family: Gilroy;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-right: 40px;
+  padding-bottom: 30px;
+  border-bottom: 3px solid #25382E;
+  position: relative;
+}
+.education__item::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  width: 35px;
+  height: 35px;
+  background-image: url(/img/icon-plus.png);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.education__galery {
+  width: 50%;
+  position: relative;
+}
+.education__background {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.work-with {
+  display: flex;
+  background-color: #fff;
+  border-top: 1px solid #25382E;
+}
+.work-with__title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 26.893%;
+  margin: 3.22% 3.22%;
+  background-color: #25382E;
+  background-image: url(/img/greetings-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  color: #FFF;
+  font-family: Doloman Pavljenko;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.work-with__content {
+  border-left: 1px solid #25382E;
+  width: 66.6666%;
+}
+.work-with__text {
+  width: 70%;
+  margin: 0 auto 65px;
+  text-align: center;
+  font-family: Gilroy;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.work-with__list {
+  padding: 7%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 45px;
+  list-style: disc;
+}
+.work-with__item {
+  margin-left: 27px;
+  font-family: Gilroy;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.case {
+  display: flex;
+  background-color: #fff;
+  border-top: 1px solid #25382E;
+}
+.case__content {
+  width: 66.66%;
+  border-right: 1px solid #25382E;
+}
+.case__title {
+  margin-top: 110px;
+  margin-bottom: 85px;
+  text-align: center;
+  font-family: Doloman Pavljenko;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.case__text {
+  width: 77%;
+  margin: 0 auto 100px;
+  color: #000;
+  font-family: Gilroy;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.case__text:first-child {
+  margin: 0 auto 50px;
+}
+.case__img {
+  width: 33.33%;
+  background-image: url(/img/img-stock.jpg);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.approach {
+  background-color: #fff;
+  border-top: 1px solid #25382E;
+  display: flex;
+}
+.approach__title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 26.893%;
+  margin: 3.22% 3.22%;
+  background-color: #25382E;
+  background-image: url(/img/greetings-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  color: #FFF;
+  font-family: Doloman Pavljenko;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.approach__content {
+  width: 66.666%;
+  border-left: 1px solid #25382E;
+}
+.approach__name {
+  margin-top: 90px;
+  text-align: center;
+  font-family: Doloman Pavljenko;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.approach__name span {
+  display: block;
+  text-align: center;
+  font-family: Gilroy;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.approach__descr-list {
+  margin: 70px 7% 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-column-gap: 3.9%;
+  grid-row-gap: 30px;
+  list-style: disc;
+}
+.approach__item {
+  margin-left: 27px;
+  font-family: Gilroy;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.details {
+  background-color: #fff;
+  display: flex;
+  border-top: 1px solid #25382E;
+}
+.details__content {
+  width: 66.66%;
+  border-right: 1px solid #25382E;
+}
+.details__title {
+  margin-top: 90px;
+  margin-bottom: 65px;
+  text-align: center;
+  font-family: Doloman Pavljenko;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.details__text {
+  margin: 30px auto;
+  width: 46%;
+}
+.details__text p {
+  font-family: Gilroy;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.details__text p:first-child {
+  font-size: 24px;
+  font-weight: 700;
+}
+.details__button {
+  margin-top: 70px;
+}
+.details__img {
+  width: 33.33%;
+  background-image: url(/img/img-stock.jpg);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.faq {
+  background-color: #fff;
+  display: flex;
+  border-top: 1px solid #25382E;
+}
+.faq__questions {
+  width: 50%;
+  padding-left: 7.1%;
+}
+.faq__title {
+  margin-top: 35px;
+  margin-bottom: 40px;
+  text-align: start;
+  font-family: Doloman Pavljenko;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.faq__list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-bottom: 80px;
+}
+.faq__item {
+  cursor: pointer;
+  font-family: Gilroy;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: relative;
+  padding-bottom: 30px;
+  border-bottom: 3px solid #25382E;
+}
+.faq__item::before {
+  content: "";
+  position: absolute;
+  top: 3px;
+  right: 0;
+  width: 35px;
+  height: 35px;
+  background-image: url(/img/icon-plus.png);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.faq__item_active {
+  font-weight: 700;
+}
+.faq__item_active::before {
+  transform: rotate(45deg);
+}
+.faq__answers {
+  width: 50%;
+  padding-left: 15px;
+}
+.faq__img {
+  width: 404px;
+  height: 404px;
+  margin: 45px auto 35px;
+  border-radius: 50%;
+  background-image: url(/img/img-stock.jpg);
+  background-position: 50% 10%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.faq__answer {
+  padding-left: 30px;
+  padding-right: 80px;
+  font-family: Gilroy;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.contacts {
+  background-color: #fff;
+  border-top: 1px solid #25382E;
+  display: flex;
+}
+.contacts__title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 26.893%;
+  margin: 3.22% 3.22%;
+  background-color: #25382E;
+  background-image: url(/img/greetings-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  color: #FFF;
+  font-family: Doloman Pavljenko;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.contacts__content {
+  width: 66.66%;
+  padding: 140px 5.3% 150px 10.7%;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  border-left: 1px solid #25382E;
+}
+.contacts__text {
+  font-family: Doloman Pavljenko;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.footer__nav {
+  margin-top: 45px;
+  margin-bottom: 45px;
+  position: relative;
+}
+.footer__nav::before {
+  content: "";
+  position: absolute;
+  top: -45px;
+  left: 0;
+  width: 1px;
+  height: 45px;
+  background-color: #fff;
+}
+.footer__nav::after {
+  content: "";
+  position: absolute;
+  top: -45px;
+  right: 0;
+  width: 1px;
+  height: 45px;
+  background-color: #fff;
 }

@@ -20,7 +20,6 @@
       width: 50%;
       background-color: #fff;
       display: flex;
-      // align-items: center;
    }
 
    &__title {
@@ -39,7 +38,7 @@
 
    &__text {
       width: 66.666%;
-      margin: 50px 7% 50px;
+      padding: 50px 7% 50px;
       display: flex;
       align-items: center;
       justify-content: center;

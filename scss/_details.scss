@@ -1,0 +1,51 @@
+.details {
+
+   background-color: #fff;
+   display: flex;
+   border-top: 1px solid #25382E;
+
+   &__content {
+      width: 66.66%;
+      border-right: 1px solid #25382E;
+   }
+
+   &__title {
+      margin-top: 90px;
+      margin-bottom: 65px;
+      text-align: center;
+      font-family: Doloman Pavljenko;
+      font-size: 60px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: normal;
+   }
+
+   &__text {
+      margin: 30px auto;
+      width: 46%;
+      p {
+         &:first-child {
+            font-size: 24px;
+            font-weight: 700;
+         }
+         font-family: Gilroy;
+         font-size: 24px;
+         font-style: normal;
+         font-weight: 400;
+         line-height: normal;
+         
+      }
+   }
+
+   &__button {
+      margin-top: 70px;
+   }
+
+   &__img {
+      width: 33.33%;
+      background-image: url(/img/img-stock.jpg);
+      background-position: 0 0;
+      background-repeat: no-repeat;
+      background-size: cover;
+   }
+}

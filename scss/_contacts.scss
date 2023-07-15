@@ -1,0 +1,42 @@
+.contacts {
+
+   background-color: #fff;
+   border-top: 1px solid #25382E;
+   display: flex;
+
+   &__title {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 26.893%;
+      margin: 3.22% 3.22%;
+      background-color: #25382E;
+      background-image: url(/img/greetings-background.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: 0 0;
+      color: #FFF;
+      font-family: Doloman Pavljenko;
+      font-size: 60px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: normal;
+   }
+
+   &__content {
+      width: 66.66%;
+      padding: 140px 5.3% 150px 10.7% ;
+      display: flex;
+      flex-direction: column;
+      gap: 60px;
+      border-left: 1px solid #25382E;
+   }
+
+   &__text {
+      font-family: Doloman Pavljenko;
+      font-size: 60px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: normal;
+   }
+}

@@ -1,0 +1,23 @@
+.footer__nav {
+   margin-top: 45px;
+   margin-bottom: 45px;
+   position: relative;
+   &::before {
+      content: "";
+      position: absolute;
+      top: -45px;
+      left: 0;
+      width: 1px;
+      height: 45px;
+      background-color: #fff;
+   }
+   &::after {
+      content: "";
+      position: absolute;
+      top: -45px;
+      right: 0;
+      width: 1px;
+      height: 45px;
+      background-color: #fff;
+   }
+}

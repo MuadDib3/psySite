@@ -1,0 +1,62 @@
+.work-with {
+   display: flex;
+   background-color: #fff;
+   border-top: 1px solid #25382E;
+
+   &__title {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 26.893%;
+      margin: 3.22% 3.22%;
+      background-color: #25382E;
+      background-image: url(/img/greetings-background.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: 0 0;
+      color: #FFF;
+      font-family: Doloman Pavljenko;
+      font-size: 60px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: normal;
+   }
+
+   &__content {
+      border-left: 1px solid #25382E;
+      width: 66.6666%;
+   }
+
+   &__text {
+      width: 70%;
+      margin: 0 auto 65px;
+      text-align: center;
+      font-family: Gilroy;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+   }
+
+   &__list {
+
+      padding: 7%;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr;
+      gap: 45px;
+      list-style: disc;
+   }
+
+   &__item {
+
+      margin-left: 27px;
+      font-family: Gilroy;
+      font-size: 26px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+   }
+
+
+}
