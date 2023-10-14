@@ -70,3 +70,31 @@
       object-fit: cover;
    }
 }
+
+@media (max-width: 1050px) {
+   .education__item {
+      font-size: 20px;
+      padding-right: 30px;
+      padding-bottom: 20px;
+   }
+}
+
+@media (max-width: 850px) {
+   .education {
+      &__content {
+         width: 100%;
+         padding: 45px 10% 70px;
+      }
+      &__galery {
+         display: none;
+      }
+
+      &__item {
+         padding-right: 40px;
+         padding-bottom: 30px;
+         &:before {
+            top: 40%;
+         }
+      }
+   }
+}

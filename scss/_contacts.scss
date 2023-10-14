@@ -40,3 +40,9 @@
       line-height: normal;
    }
 }
+
+@media (max-width: 850px) {
+   .contacts {
+      display: none;
+   }
+}

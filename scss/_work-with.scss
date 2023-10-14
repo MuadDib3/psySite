@@ -60,3 +60,58 @@
 
 
 }
+
+@media (max-width: 1150px) {
+
+   .work-with__list {
+      padding: 70px 4% 70px;
+      gap: 25px;
+      row-gap: 45px;
+   }
+
+   .work-with__title {
+      font-size: 50px;
+   }
+
+   .work-with__item {
+      font-size: 24px;
+      margin-left: 20px;
+      line-height: 22px;
+   }
+
+   .work-with__text {
+      margin-bottom: 45px;
+   }
+}
+
+@media (max-width: 850px) {
+   .work-with {
+      flex-direction: column;
+
+      &__title {
+         width: 93.56%;
+         padding: 8% 0;
+      }
+
+      &__content {
+         width: 100%;
+      }
+
+      &__list {
+         gap: 30px;
+      }
+   }
+}
+
+@media (max-width: 550px) {
+
+   .work-with__list {
+      gap: 25px;
+      grid-template-columns: 1fr;
+      padding-bottom: 50px;
+   }
+
+   .work-with__text {
+      width: 90%;
+   }
+}

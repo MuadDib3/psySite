@@ -3,6 +3,8 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="keywords" content="психолог валгаев дмитрий, психолог онлайн"/>
+   <meta name="description" content="Профессиональный психолог. Я помогаю клиенту найти свой собственный путь решения сложных ситуаций. Работаю в рамках терапии ACT (Acceptance and Commitment Therapy, терапия принятия и ответственности).">
    <title>Психолог Валгаев Дмитрий</title>
    <link rel="stylesheet" href="/css/normalize.css">
    <link rel="stylesheet" href="/css/null.css">
@@ -14,12 +16,13 @@
       <header class="header">
          <nav class="header__nav">
             <ul class="header__list">
-               <li class="list__item">Валгаев<br>Дмитрий</li>
+               <li class="list__item"><h1>Валгаев<br>Дмитрий</h1></li>
                <li class="list__item">обо мне</li>
                <li class="list__item">с чем я работаю</li>
                <li class="list__item">как я работаю</li>
                <li class="list__item">Частые вопросы</li>
                <li class="list__item">Связаться</li>
+               <li class="list__item">Навигация</li>
             </ul>
          </nav>
       </header>
@@ -27,26 +30,29 @@
          <section class="greetings">
             <div class="greetings__content-wrapper">
                <div class="greetings__content">
-                  <h1 class="greetings__title">распутаю клубок<br> личных проблем</h1>
+                  <h2 class="greetings__title">распутаю клубок<br> личных проблем</h2>
                   <p class="greetings__text">Вполне возможно, вы зашли на этот сайт, потому что ищете помощь для себя или для кого-то из близких или вы устали жить в дискомфорте. Я могу рассказать, с чем и каким образом я работаю.
                   </p>
                   <button class="greetings__button"><span>написать</span> мне</button>
                </div>
             </div>
             <div class="greetings__img">
-               <div class="greetings__photo"><img src="/img/main photo.png" alt="моя фотография"></div>
+               <picture class="greetings__photo">
+                  <source media="(max-width: 850px)" srcset="/img/main-photo-small.png">
+                  <img src="/img/main-photo.png" alt="моя фотография">
+               </picture>
                <div class="greetings__logo"><img src="/img/logo.svg" alt="мой логотип"></div>
             </div>
          </section>
          <section class="about-me">
             <div class="about-me__img"><img src="/img/photo_2.jpg" alt="еще одно мое фото"></div>
-            <div class="about-me__content">
-               <h2 class="about-me__title"><span>обо<br>мне</span></h2>
-               <p class="about-me__text"><span>
-                  Меня зовут Дмитрий, я практикующий психолог, и моя цель - помочь людям достичь психологического благополучия и развить свой потенциал. С опытом работы и образованием в области психологии, я предлагаю эмпатическую и безоценочную поддержку для тех, кто ищет помощи.
+            <h2 class="about-me__title"><span>обо мне</span></h2>
+            <p class="about-me__text"><span>
+                  Меня зовут Дмитрий, я практикующий психолог, и моя цель - помочь людям достичь психологического благополучия и
+                  развить свой потенциал. С опытом работы и образованием в области психологии, я предлагаю эмпатическую и
+                  безоценочную поддержку для тех, кто ищет помощи.
                   Я стремлюсь помочь каждому клиенту на их индивидуальном пути к психологическому благополучию и счастью.
                </span></p>
-            </div>
          </section>
          <section class="education">
             <div class="education__content">
@@ -104,11 +110,11 @@
                <h2 class="details__title">детали</h2>
                <div class="details__text">
                   <p>Стоимость сессии</p>
-                  <p>1500 руб.</p>
+                  <p>2000 руб.</p>
                </div>
                <div class="details__text">
-                  <p>Первая сессия</p>
-                  <p>1000 руб</p>
+                  <p>Продолжительность сессии</p>
+                  <p>50 минут</p>
                </div>
                <div class="details__text">
                   <p>Формат работы</p>
@@ -116,7 +122,7 @@
                </div>
                <div class="details__text">
                   <p>Частота встреч</p>
-                  <p>раз в неделю или по договоренности</p>
+                  <p>Раз в неделю или по договоренности</p>
                </div>
                <button class="details__button greetings__button"><span>написать</span> мне</button>
             </div>
@@ -124,7 +130,7 @@
          </section>
          <section class="faq">
             <div class="faq__questions">
-               <h2 class="faq__title">Частые вопросы</h2>
+               <h2 class="faq__title">частые вопросы</h2>
                <ul class="faq__list">
                   <li class="faq__item faq__item_active">Все что клиент скажет - конфиденциально?</li>
                   <li class="faq__item">Могу ли я выписать медикаменты?</li>
@@ -157,6 +163,7 @@
                <li class="list__item">как я работаю</li>
                <li class="list__item">Частые вопросы</li>
                <li class="list__item">Связаться</li>
+               <li class="list__item">Навигация</li>
             </ul>
          </nav>
       </footer>

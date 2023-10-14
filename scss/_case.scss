@@ -37,8 +37,51 @@
    &__img {
       width: 33.33%;
       background-image: url(/img/img-stock.jpg);
-      background-position: 0 0;
+      background-position: 50% 50%;
       background-repeat: no-repeat;
       background-size: cover;
+   }
+}
+
+@media (max-width: 1050px) {
+   .case__title {
+      margin-top: 90px;
+      margin-bottom: 80px;
+   }
+
+   .case__text {
+      margin: 0 auto 70px;
+   }
+}
+
+@media (max-width: 850px) {
+   .case {
+      flex-direction: column-reverse;
+   }
+
+   .case__content {
+      width: 100%;
+      border: none;
+   }
+
+   .case__title {
+      margin-top: 70px;
+   }
+
+   .case__img {
+      min-height: 500px;
+      width: 70%;
+      margin: 20px auto 0;
+      background-position: 50% 10%;
+   }
+}
+
+@media (max-width: 550px) {
+   .case__title {
+      font-size: 50px;
+   }
+
+   .case__text {
+      font-size: 20px;
    }
 }

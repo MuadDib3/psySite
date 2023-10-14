@@ -49,3 +49,9 @@
       background-size: cover;
    }
 }
+
+@media (max-width: 850px) {
+   .details {
+      flex-direction: column;
+   }
+}
