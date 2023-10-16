@@ -81,17 +81,26 @@
 
 @media (max-width: 850px) {
    .education {
+
+      flex-direction: column-reverse;
       &__content {
          width: 100%;
-         padding: 45px 10% 70px;
+         padding: 30px 23px 45px;
+         border: none;
+      }
+
+      &__title {
+         margin-bottom: 40px;
       }
       &__galery {
-         display: none;
+         width: 100%;
+         min-height: 500px;
       }
 
       &__item {
+         font-size: 18px;
          padding-right: 40px;
-         padding-bottom: 30px;
+         padding-bottom: 15px;
          &:before {
             top: 40%;
          }

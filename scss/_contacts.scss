@@ -41,8 +41,32 @@
    }
 }
 
+@media (max-width: 1105px) {
+   .contacts__title {
+      font-size: 50px;
+   }
+
+   .contacts__text {
+      font-size: 50px;
+   }
+}
+
 @media (max-width: 850px) {
    .contacts {
-      display: none;
+      flex-direction: column;
+
+      &__title {
+         width: calc(100% - 30px);
+         padding: 45px 0 52px;
+      }
+
+      &__content {
+         padding: 30px 23px 45px;
+         border: none;
+      }
+
+      &__text {
+         font-size: 30px;
+      }
    }
 }
