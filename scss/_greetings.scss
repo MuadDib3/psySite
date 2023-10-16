@@ -130,6 +130,7 @@
 
 @media (max-width: 850px) {
    .greetings {
+      padding-top: 64px;
       flex-direction: column-reverse;
 
       &__content-wrapper {

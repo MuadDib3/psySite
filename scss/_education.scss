@@ -36,23 +36,23 @@
       font-style: normal;
       font-weight: 400;
       line-height: normal;
-      padding-right: 40px;
+      // padding-right: 40px;
       padding-bottom: 30px;
       border-bottom: 3px solid #25382E;
       position: relative;
-      &::before {
-         content: "";
-         position: absolute;
-         top: 50%;
-         right: 0;
-         transform: translateY(-50%);
-         width: 35px;
-         height: 35px;
-         background-image: url(/img/icon-plus.png);
-         background-position: 50% 50%;
-         background-repeat: no-repeat;
-         background-size: cover;
-      }
+      // &::before {
+      //    content: "";
+      //    position: absolute;
+      //    top: 50%;
+      //    right: 0;
+      //    transform: translateY(-50%);
+      //    width: 35px;
+      //    height: 35px;
+      //    background-image: url(/img/icon-plus.png);
+      //    background-position: 50% 50%;
+      //    background-repeat: no-repeat;
+      //    background-size: cover;
+      // }
    }
 
    &__galery {
@@ -74,7 +74,7 @@
 @media (max-width: 1050px) {
    .education__item {
       font-size: 20px;
-      padding-right: 30px;
+      // padding-right: 30px;
       padding-bottom: 20px;
    }
 }
@@ -99,7 +99,7 @@
 
       &__item {
          font-size: 18px;
-         padding-right: 40px;
+         // padding-right: 40px;
          padding-bottom: 15px;
          &:before {
             top: 40%;

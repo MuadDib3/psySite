@@ -24,6 +24,10 @@
    font-weight: 300;
 }
 
+html {
+   overflow-x: hidden;
+}
+
 body {
    background-color: #25382E; 
 }
@@ -36,6 +40,9 @@ body {
 
 }
 
+.no-scroll {
+   overflow: hidden;
+}
 
 //!--------------------------imports------------
 

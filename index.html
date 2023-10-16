@@ -17,12 +17,12 @@
          <nav class="header__nav">
             <ul class="header__list">
                <li class="list__item"><h1>Валгаев<br>Дмитрий</h1></li>
-               <li class="list__item">обо мне</li>
-               <li class="list__item">с чем я работаю</li>
-               <li class="list__item">как я работаю</li>
-               <li class="list__item">Частые вопросы</li>
-               <li class="list__item">Связаться</li>
-               <li class="list__item">Навигация</li>
+               <li class="list__item" data-goto=".about-me">обо мне</li>
+               <li class="list__item" data-goto=".work-with">с чем я работаю</li>
+               <li class="list__item" data-goto=".approach">как я работаю</li>
+               <li class="list__item" data-goto=".details">частые вопросы</li>
+               <li class="list__item" data-goto=".contacts">Связаться</li>
+               <li class="list__item" onclick="toggleNav()">Навигация</li>
             </ul>
          </nav>
       </header>
@@ -33,7 +33,7 @@
                   <h2 class="greetings__title">распутаю клубок<br> личных проблем</h2>
                   <p class="greetings__text">Вполне возможно, вы зашли на этот сайт, потому что ищете помощь для себя или для кого-то из близких или вы устали жить в дискомфорте. Я могу рассказать, с чем и каким образом я работаю.
                   </p>
-                  <button class="greetings__button"><span>написать</span> мне</button>
+                  <button class="greetings__button"  data-goto=".contacts"><span>написать</span> мне</button>
                </div>
             </div>
             <div class="greetings__img">
@@ -151,13 +151,30 @@
                <a href="https://t.me/myaddib3" class="contacts__text">Telegram: myaddib3</a>
                <a href="https://api.whatsapp.com/send?phone=79032799490" class="contacts__text">WhatsApp: написать</a>
                <a href="mailto:mddb333@gmail.com" class="contacts__text">Email: mddb333@gmail.com</a>
+               <a href="https://www.b17.ru/da_valgaev_psy/?prt=622151" target="_blank" class="contacts__text">Cтраница на сайте психологов "b17"</a>
             </div>
          </section>
       </main>
       <footer class="footer">
-         <p class="footer__item">Психолог-консультант Валгаев&nbsp;Дмитрий</p>
+         <p class="footer__item">Валгаев Дмитрий&nbsp;Анатольевич, Психолог&#8209;консультант</p>
          <img src="/img/logo.svg" alt="мой логотип" class="footer__img">
       </footer>
    </div>
+   <nav class="header__nav modal-nav" id="modal-nav">
+      <ul class="header__list">
+         <footer class="footer">
+            <p class="footer__item">Валгаев Дмитрий&nbsp;Анатольевич, Психолог&#8209;консультант</p>
+            <img src="/img/logo.svg" alt="мой логотип" class="footer__img">
+         </footer>
+         <li class="list__item" data-goto=".about-me">обо мне</li>
+         <li class="list__item" data-goto=".work-with">с чем я работаю</li>
+         <li class="list__item" data-goto=".approach">как я работаю</li>
+         <li class="list__item" data-goto=".details">частые вопросы</li>
+         <li class="list__item" data-goto=".contacts">Связаться</li>
+         <li class="list__item" onclick="toggleNav()">Закрыть</li>
+      </ul>
+   </nav>
+
+   <script src="/js/script.js"></script>
 </body>
 </html>
