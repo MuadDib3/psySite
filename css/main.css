@@ -425,7 +425,7 @@ body {
 .about-me__text {
   width: 33.333%;
   background-color: #fff;
-  padding: 50px 7% 50px;
+  padding: 50px 40px 50px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -439,7 +439,7 @@ body {
 
 @media (max-width: 1050px) {
   .about-me__text {
-    padding: 40px 5% 40px;
+    padding: 40px 30px 40px;
     font-size: 18px;
   }
 }
@@ -674,7 +674,7 @@ body {
 }
 .case__text {
   width: 77%;
-  margin: 0 auto 100px;
+  margin: 0 auto 50px;
   color: #000;
   font-family: Gilroy;
   font-size: 24px;
@@ -682,8 +682,8 @@ body {
   font-weight: 400;
   line-height: normal;
 }
-.case__text:first-child {
-  margin: 0 auto 50px;
+.case__text:last-child {
+  margin: 0 auto 100px;
 }
 .case__img {
   width: 33.43%;

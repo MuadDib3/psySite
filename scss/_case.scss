@@ -21,17 +21,18 @@
    }
 
    &__text {
-      &:first-child {
-         margin: 0 auto 50px;
-      }
+
       width: 77%;
-      margin: 0 auto 100px;
+      margin: 0 auto 50px;
       color: #000;
       font-family: Gilroy;
       font-size: 24px;
       font-style: normal;
       font-weight: 400;
       line-height: normal;
+      &:last-child {
+         margin: 0 auto 100px;
+      }
    }
 
    &__img {

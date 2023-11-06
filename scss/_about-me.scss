@@ -34,7 +34,7 @@
    &__text {
       width: 33.333%;
       background-color: #fff;
-      padding: 50px 7% 50px;
+      padding: 50px 40px 50px;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -50,7 +50,7 @@
 @media (max-width: 1050px) {
    .about-me {
       &__text {
-         padding: 40px 5% 40px;
+         padding: 40px 30px 40px;
          font-size: 18px;
       }
    }
