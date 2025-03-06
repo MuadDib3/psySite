@@ -14,7 +14,7 @@ function toggleNav () {
 //scroll to section from nav
 
 const navLinks = document.querySelectorAll('.list__item[data-goto]');
-const buttomLink = document.querySelector('.greetings__button[data-goto]');
+const buttomLink = document.querySelector('.contact-button[data-goto]');
 if (navLinks.length > 0) {
    navLinks.forEach (navLink => {
       navLink.addEventListener("click", clickOnNavLink);

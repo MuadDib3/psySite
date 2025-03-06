@@ -232,7 +232,7 @@ body {
   line-height: normal;
 }
 .greetings__text {
-  margin-bottom: 85px;
+  margin-bottom: 40px;
   margin-left: 9.22%;
   margin-right: 9.22%;
   color: #000;
@@ -244,10 +244,16 @@ body {
 }
 .greetings__button {
   margin-left: 50%;
-  margin-bottom: 95px;
+  margin-bottom: 65px;
   transform: translateX(-45%);
   cursor: pointer;
   position: relative;
+}
+.greetings__button div {
+  position: absolute;
+  top: 40px;
+  left: 6px;
+  width: 180px;
   color: #000;
   text-align: center;
   font-family: Doloman Pavljenko;
@@ -255,26 +261,26 @@ body {
   font-style: normal;
   font-weight: 300;
   line-height: normal;
-}
-.greetings__button span {
-  position: relative;
   z-index: 10;
   transition: all 100ms;
 }
 .greetings__button::before {
   content: "";
-  position: absolute;
-  top: -41px;
-  left: -8px;
+  position: relative;
+  top: 0px;
+  left: 0px;
   width: 126px;
   height: 126px;
   border: 2px solid #000;
   border-radius: 50%;
-  z-index: 5;
+  z-index: 1;
   transition: all 100ms;
 }
-.greetings__button:hover span {
-  color: #fff;
+.greetings__button:hover div {
+  color: #ffffff;
+}
+.greetings__button:hover div span {
+  color: #000;
 }
 .greetings__button:hover::before {
   background-color: #25382E;
@@ -576,14 +582,17 @@ body {
   width: 66.6666%;
 }
 .work-with__text {
-  width: 70%;
-  margin: 0 auto 80px;
-  text-align: center;
+  margin: 0 10% 80px 0;
+  text-align: right;
   font-family: Gilroy;
   font-size: 24px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 400;
   line-height: normal;
+}
+.work-with__text span {
+  width: 60%;
+  display: inline-block;
 }
 .work-with__list {
   padding: 7%;
@@ -597,7 +606,7 @@ body {
 .work-with__item {
   margin-left: 27px;
   font-family: Gilroy;
-  font-size: 26px;
+  font-size: 24px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -687,10 +696,11 @@ body {
 }
 .case__img {
   width: 33.43%;
-  background-image: url(/img/img-stock.jpg);
+  background-image: url(/img/img-water.jpg);
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
+  filter: grayscale(60%) hue-rotate(0.96turn);
 }
 
 @media (max-width: 1050px) {
@@ -780,7 +790,7 @@ body {
 .approach__item {
   margin-left: 27px;
   font-family: Gilroy;
-  font-size: 26px;
+  font-size: 24px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;

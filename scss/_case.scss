@@ -37,10 +37,11 @@
 
    &__img {
       width: 33.43%;
-      background-image: url(/img/img-stock.jpg);
+      background-image: url(/img/img-water.jpg);
       background-position: 50% 50%;
       background-repeat: no-repeat;
       background-size: cover;
+      filter: grayscale(60%) hue-rotate(0.96turn);
    }
 }
 
