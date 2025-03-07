@@ -130,7 +130,7 @@
       font-size: 50px;
    }
    &__text {
-      font-size: 20px;
+      font-size: 18px;
    }
    }
 }
@@ -162,10 +162,14 @@
          display: none;
       }
       &__button {
-         font-size: 30px;
+         div {
+            font-size: 30px;
+            text-align: left;
+            left: 0;
+         }
          &::before {
             content: "";
-            top: -35px;
+            top: 5px;
             left: -7px;
             width: 105px;
             height: 105px;
@@ -173,7 +177,7 @@
       }
    }
 }
-
+ 
 @media (max-width: 550px) {
    .greetings {
       flex-direction: column-reverse;

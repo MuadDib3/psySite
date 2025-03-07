@@ -78,12 +78,13 @@
    }
 
    .work-with__item {
-      font-size: 24px;
+      font-size: 18px;
       line-height: 22px;
    }
 
    .work-with__text {
       margin-bottom: 45px;
+      font-size: 18px;
    }
 }
 
@@ -115,7 +116,10 @@
          font-size: 18px;
          font-weight: 400;
          text-align: left;
-         width: calc(100% - 46px);
+         margin-left: 25px;
+         span {
+            width: 100%;
+         }
       }
    }
 }

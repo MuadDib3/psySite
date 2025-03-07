@@ -319,7 +319,7 @@ body {
     font-size: 50px;
   }
   .greetings__text {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 @media (max-width: 850px) {
@@ -348,12 +348,14 @@ body {
   .greetings__logo {
     display: none;
   }
-  .greetings__button {
+  .greetings__button div {
     font-size: 30px;
+    text-align: left;
+    left: 0;
   }
   .greetings__button::before {
     content: "";
-    top: -35px;
+    top: 5px;
     left: -7px;
     width: 105px;
     height: 105px;
@@ -499,7 +501,6 @@ body {
   gap: 30px;
 }
 .education__item {
-  cursor: pointer;
   color: #000;
   font-family: Gilroy;
   font-size: 24px;
@@ -526,7 +527,7 @@ body {
 
 @media (max-width: 1050px) {
   .education__item {
-    font-size: 20px;
+    font-size: 18px;
     padding-bottom: 20px;
   }
 }
@@ -622,11 +623,12 @@ body {
     font-size: 50px;
   }
   .work-with__item {
-    font-size: 24px;
+    font-size: 18px;
     line-height: 22px;
   }
   .work-with__text {
     margin-bottom: 45px;
+    font-size: 18px;
   }
 }
 @media (max-width: 850px) {
@@ -653,7 +655,10 @@ body {
     font-size: 18px;
     font-weight: 400;
     text-align: left;
-    width: calc(100% - 46px);
+    margin-left: 25px;
+  }
+  .work-with__text span {
+    width: 100%;
   }
 }
 @media (max-width: 550px) {
@@ -705,11 +710,12 @@ body {
 
 @media (max-width: 1050px) {
   .case__title {
-    margin-top: 90px;
-    margin-bottom: 80px;
+    margin-top: 60px;
+    margin-bottom: 50px;
   }
   .case__text {
-    margin: 0 auto 70px;
+    margin: 0 auto 50px;
+    font-size: 18px;
   }
 }
 @media (max-width: 850px) {
@@ -809,7 +815,7 @@ body {
     row-gap: 35px;
   }
   .approach__item {
-    font-size: 24px;
+    font-size: 18px;
     line-height: 22px;
     margin-left: 20px;
   }
@@ -889,6 +895,17 @@ body {
   background-size: cover;
 }
 
+@media (max-width: 1050px) {
+  .details__text {
+    font-size: 18px;
+  }
+  .details__text p {
+    font-size: inherit;
+  }
+  .details__text p:first-child {
+    font-size: inherit;
+  }
+}
 @media (max-width: 850px) {
   .details {
     flex-direction: column-reverse;
@@ -912,10 +929,10 @@ body {
     width: calc(100% - 46px);
   }
   .details__text p {
-    font-size: 20px;
+    font-size: 18px;
   }
   .details__text p:first-child {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 .faq {
@@ -1040,7 +1057,7 @@ body {
     font-size: 50px;
   }
   .contacts__text {
-    font-size: 50px;
+    font-size: 40px;
   }
 }
 @media (max-width: 850px) {

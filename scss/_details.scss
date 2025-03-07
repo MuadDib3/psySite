@@ -53,6 +53,20 @@
    }
 }
 
+@media (max-width: 1050px) {
+   .details {
+      &__text {
+         font-size: 18px;
+         p {
+            font-size: inherit;
+            &:first-child {
+               font-size: inherit;
+            }
+         }
+      }
+   }
+}
+
 @media (max-width: 850px) {
    .details {
       flex-direction: column-reverse;
@@ -78,9 +92,9 @@
       &__text {
          width: calc(100% - 46px);
          p {
-            font-size: 20px;
+            font-size: 18px;
             &:first-child {
-               font-size: 20px;
+               font-size: 18px;
             }
          }
       }
