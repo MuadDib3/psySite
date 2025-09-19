@@ -91,10 +91,15 @@
 
       &__title {
          margin-bottom: 40px;
+         margin-top: 0;
       }
       &__galery {
          width: 100%;
          min-height: 500px;
+      }
+
+      &__list {
+         margin: 0;
       }
 
       &__item {

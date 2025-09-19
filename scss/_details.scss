@@ -9,7 +9,7 @@
 
    &__title {
       margin-top: 25px;
-      margin-bottom: 70px;
+      margin-bottom: 45px;
       text-align: center;
       font-family: Doloman Pavljenko;
       font-size: 60px;
@@ -21,7 +21,7 @@
    &__text {
       margin: 30px 25%;
       &:last-child {
-         margin-bottom: 80px;
+         margin-bottom: 115px;
       }
       width: 55%;
       p {
@@ -32,9 +32,7 @@
          font-family: Gilroy;
          font-size: 20px;
          font-style: normal;
-         font-weight: 400;
-         line-height: normal;
-         
+         font-weight: 400;         
       }
    }
 
@@ -87,7 +85,12 @@
       }
 
       &__text {
-         width: calc(100% - 46px);
+         margin: 30px auto;
+         width: 100%;
+         padding: 0 23px;
+         &:last-child {
+            margin-bottom: 45px;
+         }
          p {
             font-size: 18px;
             &:first-child {

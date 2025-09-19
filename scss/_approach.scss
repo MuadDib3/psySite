@@ -20,7 +20,7 @@
 
    &__text {
 
-      margin: 25px 110px;
+      margin: 25px 11.82%;
       color: #000;
       font-family: Gilroy;
       font-size: 20px;
@@ -43,33 +43,32 @@
 }
 
 @media (max-width: 1050px) {
-   .case__title {
+   .approach__title {
       margin-top: 60px;
       margin-bottom: 50px;
    }
 
-   .case__text {
-      margin: 0 auto 50px;
+   .approach__text {
       font-size: 18px;
    }
 }
 
 @media (max-width: 850px) {
-   .case {
+   .approach {
       flex-direction: column-reverse;
    }
 
-   .case__content {
+   .approach__content {
       width: 100%;
    }
 
-   .case__title {
-      margin-top: 30px;
+   .approach__title {
+      margin-top: 0;
       margin-bottom: 45px;
       font-size: 50px;
    }
 
-   .case__text {
+   .approach__text {
       width: 100%;
       margin: 0 0 30px;
       padding: 0 23px;
@@ -79,10 +78,11 @@
       }
    }
 
-   .case__img {
-      min-height: 400px;
-      width: calc(100% - 30px);
-      margin: 15px auto 0;
-      background-position: 50% 10%;
+   .approach__img {
+      display: none;
+      // min-height: 400px;
+      // width: calc(100% - 30px);
+      // margin: 15px auto 0;
+      // background-position: 50% 10%;
    }
 }
