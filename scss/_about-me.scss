@@ -1,46 +1,12 @@
 .about-me {
-   display: flex;
-   min-height: 607px;
-
-   &__img {
-      width: 50%;
-      border-right: 1px solid #25382E;
-      position: relative;
-      img {
-         position: absolute;
-         top: 0;
-         left: 0;
-         width: 100%;
-         height: 100%;
-         object-fit: cover;
-      }
-   }
-
-   &__title {
-      width: 16.666%;
-      background-color: #fff;
-      border-right: 1px solid #25382E;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: #000;
-      text-align: center;
-      font-family: Doloman Pavljenko;
-      font-size: 60px;
-      font-style: normal;
-      font-weight: 300;
-   }
 
    &__text {
-      width: 33.333%;
       background-color: #fff;
-      padding: 50px 40px 50px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
+      padding: 45px 16.66%;
       color: #000;
+      text-align: center;
       font-family: Gilroy;
-      font-size: 24px;
+      font-size: 20px;
       font-style: normal;
       font-weight: 400;
       line-height: normal;
@@ -50,7 +16,6 @@
 @media (max-width: 1050px) {
    .about-me {
       &__text {
-         padding: 40px 30px 40px;
          font-size: 18px;
       }
    }

@@ -2,16 +2,14 @@
 
    background-color: #fff;
    display: flex;
-   border-top: 1px solid #25382E;
 
    &__content {
       width: 66.66%;
-      border-right: 1px solid #25382E;
    }
 
    &__title {
-      margin-top: 65px;
-      margin-bottom: 80px;
+      margin-top: 25px;
+      margin-bottom: 70px;
       text-align: center;
       font-family: Doloman Pavljenko;
       font-size: 60px;
@@ -21,18 +19,18 @@
    }
 
    &__text {
-      margin: 30px auto;
+      margin: 30px 25%;
       &:last-child {
          margin-bottom: 80px;
       }
       width: 55%;
       p {
          &:first-child {
-            font-size: 24px;
+            font-size: 20px;
             font-weight: 700;
          }
          font-family: Gilroy;
-         font-size: 24px;
+         font-size: 20px;
          font-style: normal;
          font-weight: 400;
          line-height: normal;
@@ -73,7 +71,6 @@
 
       &__content {
          width: 100%;
-         border: none;
       }
 
       &__title {

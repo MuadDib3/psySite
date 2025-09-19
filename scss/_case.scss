@@ -1,17 +1,15 @@
-.case {
+.approach {
 
    display: flex;
    background-color: #fff;
-   border-top: 1px solid #25382E;
 
    &__content {
       width: 66.66%;
-      border-right: 1px solid #25382E;
    }
 
    &__title {
-      margin-top: 65px;
-      margin-bottom: 80px;
+      margin-top: 70px;
+      margin-bottom: 70px;
       text-align: center;
       font-family: Doloman Pavljenko;
       font-size: 60px;
@@ -22,16 +20,15 @@
 
    &__text {
 
-      width: 77%;
-      margin: 0 auto 25px;
+      margin: 25px 110px;
       color: #000;
       font-family: Gilroy;
-      font-size: 24px;
+      font-size: 20px;
       font-style: normal;
       font-weight: 400;
       line-height: normal;
       &:last-child {
-         margin: 0 auto 80px;
+         margin-bottom: 75px;
       }
    }
 
@@ -64,7 +61,6 @@
 
    .case__content {
       width: 100%;
-      border: none;
    }
 
    .case__title {

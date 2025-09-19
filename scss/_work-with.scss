@@ -1,20 +1,20 @@
 .work-with {
    display: flex;
    background-color: #fff;
-   border-top: 1px solid #25382E;
 
    &__title {
       display: flex;
       align-items: center;
       justify-content: center;
       width: 26.893%;
-      margin: 3.22% 3.22%;
-      background-color: #25382E;
+      margin: 45px;
+      margin-top: 0;
+      background-color: #25382e;
       background-image: url(/img/greetings-background.jpg);
       background-size: cover;
       background-repeat: no-repeat;
       background-position: 0 0;
-      color: #FFF;
+      color: #fff;
       font-family: Doloman Pavljenko;
       font-size: 60px;
       font-style: normal;
@@ -23,50 +23,49 @@
    }
 
    &__content {
-      border-left: 1px solid #25382E;
       width: 66.6666%;
    }
-
+   &__subtitle {
+      font-family: Doloman Pavljenko;
+      font-size: 60px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: normal;
+      margin-bottom: 30px;
+   }
    &__text {
-
-      margin: 0 10% 80px 0;
-      text-align: right;
       font-family: Gilroy;
-      font-size: 24px;
+      font-size: 20px;
       font-style: normal;
       font-weight: 400;
       line-height: normal;
-      span {
-         width: 60%;
-         display:inline-block;
-      }
+      margin-bottom: 45px;
    }
 
    &__list {
-
-      padding: 7%;
+      margin-top: 15px;
+      margin-right: 45px;
+      text-transform: lowercase;
+      padding-bottom: 70px;
       display: grid;
       grid-template-columns: 1fr 1fr;
       grid-template-rows: 1fr;
-      gap: 45px;
-      align-items: center;
-      list-style: disc;
+      gap: 45px 90px;
+      align-items: stretch;
    }
 
    &__item {
-      margin-left: 27px;
+      height: 40px;
+      border-bottom: #25382e 3px solid;
       font-family: Gilroy;
-      font-size: 24px;
+      font-size: 20px;
       font-style: normal;
       font-weight: 400;
       line-height: normal;
    }
-
-
 }
 
 @media (max-width: 1150px) {
-
    .work-with__list {
       padding: 70px 4% 70px;
       gap: 25px;
@@ -99,7 +98,6 @@
 
       &__content {
          width: 100%;
-         border: none;
       }
 
       &__list {
@@ -125,7 +123,6 @@
 }
 
 @media (max-width: 550px) {
-
    .work-with__list {
       grid-template-columns: 1fr;
       padding-bottom: 50px;

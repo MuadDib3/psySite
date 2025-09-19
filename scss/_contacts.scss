@@ -1,7 +1,6 @@
 .contacts {
 
    background-color: #fff;
-   border-top: 1px solid #25382E;
    display: flex;
 
    &__title {
@@ -25,11 +24,10 @@
 
    &__content {
       width: 66.66%;
-      padding: 90px 5.3% 90px 10.7%;
+      padding: 155px 5.3% 155px 10.7%;
       display: flex;
       flex-direction: column;
       gap: 60px;
-      border-left: 1px solid #25382E;
    }
 
    &__text {
@@ -38,6 +36,9 @@
       font-style: normal;
       font-weight: 300;
       line-height: normal;
+      span {
+         text-decoration: underline;
+      }
    }
 }
 
